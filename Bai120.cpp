@@ -62,6 +62,7 @@ void Xuat1(int a[100],int n)
 {
 	if(n==6)
 		return;
+	Xuat1(a,n-1);
 	cout<<setw(8)<<setprecision(3)<<a[n];
 }
 void Xuat2(int a[100],int n)
